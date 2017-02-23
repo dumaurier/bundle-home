@@ -1,0 +1,28 @@
+html,body{
+  background: #fff;
+}
+
+body{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  height: 100vh;
+  background: #fff;
+}
+
+main{
+  flex: 1 0 auto;
+
+  p{
+    @include font-size(1.125);
+    letter-spacing: 1px;
+  }
+}
+
+.header{
+  background: #fff;
+
+  h1{
+    color: $color-red;
+  }
+}

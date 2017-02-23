@@ -1,0 +1,34 @@
+---
+title: Company Directory
+permalink: "/company/autotrader/"
+pagestyle: autotrader.css
+pagejs: home.js
+layout: default
+company: autotrader
+cid: 415060
+---
+
+{% assign info = site.data[page.company].info %}
+
+<main class="board">
+  <section class="block">
+    <h2>About {{ info.name}}</h2>
+    <p>
+      {{ info.about }}
+    </p
+
+    <ul>
+    {% for social in site.data[page.company].social %}
+      <li>
+        <a href="{{social.url}}">
+          {{ social.name }}
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+  </section>
+
+  <section class="block">
+    {% include components/search.html %}
+  </section>
+</main>

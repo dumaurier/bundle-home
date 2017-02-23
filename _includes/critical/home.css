@@ -1,0 +1,1 @@
+html{box-sizing:border-box}*,*::after,*::before{box-sizing:inherit}body{display:-ms-flexbox;display:flex;-ms-flex-flow:column nowrap;flex-flow:column nowrap;-ms-flex-pack:justify;justify-content:space-between;height:100vh;background:#f1f1f1}main{-ms-flex:1 0 auto;flex:1 0 auto}main p{font-size:18px;font-size:1.125rem;letter-spacing:1px}

@@ -1,0 +1,40 @@
+////////////////////////////////////////
+////////////  Breakpoints ///////////////
+////////////////////////////////////////
+$max-width: 1240px;
+$mq-small: new-breakpoint(min-width 768px 12);
+$mq-medium: new-breakpoint(min-width 960px 12);
+$mq-tabby: new-breakpoint(min-width 1024px 12);
+$mq-large: new-breakpoint(min-width 1240px);
+
+
+//////////////////////////////////////
+//Offical New Colours - Late 2016 ////
+//////////////////////////////////////
+$color-green: #377D39;
+$color-blue: #02437b;
+$color-blue-dark: #5d6c8a;
+$color-yellow: #BF9000;
+$color-red: #B20101;
+$color-orange: #BF3900;
+$color-white: #f1f1f1;
+$color-white-dirty: #fdf5ea;
+$color-black: #141619;
+
+//Blacks & Greys
+$grey-dark: #25282e;
+$grey: #525967;
+$grey-light: #caced4;
+$grey-steel: #e5e8ea;
+$grey-ghost: #f2f4f5;
+
+
+
+/////////////////////////////
+/// SPACINGS AND DEFAULTS ///
+////////////////////////////
+
+// Spacing and widths
+$space-default: 1rem;
+$padding-section: 2rem;
+$nav-height: 4.2rem;
